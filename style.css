@@ -1,0 +1,84 @@
+#container
+{
+	width: 100%;
+	border: 1px solid blue;
+}
+
+#header
+{
+	margin: 0px auto;
+	width: 970px;
+	border: 1px solid blue;
+}
+
+#header a:hover
+{
+	color: green;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#menu
+{
+	margin: 5px auto;
+	width: 970px;
+	border: 1px solid blue;
+	height: 30px;
+	background: brown;
+	padding: -5px 0px 2px 1px;
+}
+
+#menu ul
+{
+	list-style:none;
+}
+
+#menu ul li
+{
+		display:inline-block;
+}
+
+#menu ul li a
+{
+	color: white;
+	text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+	color: white;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+*{margin:0px; padding:0px}
+
+#content
+{
+	margin: 2px auto;
+	width: 950px;
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+#content label
+{
+	width: 135px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#content input[type='text'], input[type='password']
+{
+	width: 250px;
+	height: 30px;
+	border: 1px solid #333;
+}
+
+#footer
+{
+	margin: 2px auto;
+	width: 950px;
+	border: 1px solid blue;
+	padding: 10px;
+}
